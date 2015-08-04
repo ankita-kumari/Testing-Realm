@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		803894351B565FAB00B0C084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894341B565FAB00B0C084 /* AppDelegate.swift */; };
-		803894371B565FAB00B0C084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894361B565FAB00B0C084 /* ViewController.swift */; };
+		803894371B565FAB00B0C084 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894361B565FAB00B0C084 /* FirstTableViewController.swift */; };
 		8038943A1B565FAB00B0C084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803894381B565FAB00B0C084 /* Main.storyboard */; };
 		8038943C1B565FAB00B0C084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038943B1B565FAB00B0C084 /* Assets.xcassets */; };
-		8038943F1B565FAB00B0C084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038943D1B565FAB00B0C084 /* LaunchScreen.storyboard */; };
 		8038944A1B565FAB00B0C084 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894491B565FAB00B0C084 /* TableViewTests.swift */; };
 		803894551B565FAB00B0C084 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894541B565FAB00B0C084 /* TableViewUITests.swift */; };
+		8038946D1B58F77100B0C084 /* PersonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038946C1B58F77100B0C084 /* PersonDetails.swift */; };
+		8038946F1B58FE5900B0C084 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038946E1B58FE5900B0C084 /* SampleData.swift */; };
+		803894751B59033300B0C084 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894741B59033300B0C084 /* ContactCell.swift */; };
+		803894771B590EBA00B0C084 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803894761B590EBA00B0C084 /* AddContactViewController.swift */; };
+		804D7B8C1B68CDCB00F5AAC1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 804D7B8B1B68CDCB00F5AAC1 /* Default-568h@2x.png */; };
+		804D7B8F1B69F93C00F5AAC1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804D7B8D1B69F93C00F5AAC1 /* Realm.framework */; };
+		804D7B901B69F93C00F5AAC1 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 804D7B8D1B69F93C00F5AAC1 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		804D7B911B69F93C00F5AAC1 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804D7B8E1B69F93C00F5AAC1 /* RealmSwift.framework */; };
+		804D7B921B69F93C00F5AAC1 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 804D7B8E1B69F93C00F5AAC1 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		806D5EDB1B6F9AC9003038E3 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EDA1B6F9AC9003038E3 /* Customer.swift */; };
+		806D5EDD1B6FB6F4003038E3 /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EDC1B6FB6F4003038E3 /* Relationship.swift */; };
+		806D5EDF1B709C2A003038E3 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EDE1B709C2A003038E3 /* Room.swift */; };
+		806D5EE11B70B3E6003038E3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EE01B70B3E6003038E3 /* Person.swift */; };
+		806D5EE31B70BA69003038E3 /* StringObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EE21B70BA69003038E3 /* StringObject.swift */; };
+		806D5EE51B70CD6D003038E3 /* RelationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EE41B70CD6D003038E3 /* RelationsViewController.swift */; };
+		806D5EE71B70CDFA003038E3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EE61B70CDFA003038E3 /* Global.swift */; };
+		806D5EE91B70D006003038E3 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EE81B70D006003038E3 /* RoomsViewController.swift */; };
+		806D5EEB1B70D6C4003038E3 /* RoomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D5EEA1B70D6C4003038E3 /* RoomDetailViewController.swift */; };
+		809BE0EC1B5F7306007C34EA /* ContactDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809BE0EB1B5F7306007C34EA /* ContactDB.swift */; };
+		80F6415B1B6A31B90005D89E /* ContactDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6415A1B6A31B90005D89E /* ContactDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +52,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		804D7B931B69F93C00F5AAC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				804D7B921B69F93C00F5AAC1 /* RealmSwift.framework in Embed Frameworks */,
+				804D7B901B69F93C00F5AAC1 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		803894311B565FAB00B0C084 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		803894341B565FAB00B0C084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		803894361B565FAB00B0C084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		803894361B565FAB00B0C084 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		803894391B565FAB00B0C084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8038943B1B565FAB00B0C084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8038943E1B565FAB00B0C084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803894401B565FAB00B0C084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		803894451B565FAB00B0C084 /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		803894491B565FAB00B0C084 /* TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTests.swift; sourceTree = "<group>"; };
@@ -47,6 +80,24 @@
 		803894501B565FAB00B0C084 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		803894541B565FAB00B0C084 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		803894561B565FAB00B0C084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8038946C1B58F77100B0C084 /* PersonDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetails.swift; sourceTree = "<group>"; };
+		8038946E1B58FE5900B0C084 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		803894741B59033300B0C084 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		803894761B590EBA00B0C084 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		804D7B8B1B68CDCB00F5AAC1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		804D7B8D1B69F93C00F5AAC1 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		804D7B8E1B69F93C00F5AAC1 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		806D5EDA1B6F9AC9003038E3 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		806D5EDC1B6FB6F4003038E3 /* Relationship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relationship.swift; sourceTree = "<group>"; };
+		806D5EDE1B709C2A003038E3 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		806D5EE01B70B3E6003038E3 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		806D5EE21B70BA69003038E3 /* StringObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringObject.swift; sourceTree = "<group>"; };
+		806D5EE41B70CD6D003038E3 /* RelationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationsViewController.swift; sourceTree = "<group>"; };
+		806D5EE61B70CDFA003038E3 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		806D5EE81B70D006003038E3 /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		806D5EEA1B70D6C4003038E3 /* RoomDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetailViewController.swift; sourceTree = "<group>"; };
+		809BE0EB1B5F7306007C34EA /* ContactDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDB.swift; path = ../ContactDB.swift; sourceTree = "<group>"; };
+		80F6415A1B6A31B90005D89E /* ContactDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804D7B911B69F93C00F5AAC1 /* RealmSwift.framework in Frameworks */,
+				804D7B8F1B69F93C00F5AAC1 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +130,9 @@
 		803894281B565FAB00B0C084 = {
 			isa = PBXGroup;
 			children = (
+				804D7B8D1B69F93C00F5AAC1 /* Realm.framework */,
+				804D7B8E1B69F93C00F5AAC1 /* RealmSwift.framework */,
+				804D7B8B1B68CDCB00F5AAC1 /* Default-568h@2x.png */,
 				803894331B565FAB00B0C084 /* TableView */,
 				803894481B565FAB00B0C084 /* TableViewTests */,
 				803894531B565FAB00B0C084 /* TableViewUITests */,
@@ -97,12 +153,26 @@
 		803894331B565FAB00B0C084 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				809BE0EB1B5F7306007C34EA /* ContactDB.swift */,
+				806D5EE01B70B3E6003038E3 /* Person.swift */,
+				806D5EE21B70BA69003038E3 /* StringObject.swift */,
 				803894341B565FAB00B0C084 /* AppDelegate.swift */,
-				803894361B565FAB00B0C084 /* ViewController.swift */,
+				806D5EDE1B709C2A003038E3 /* Room.swift */,
+				803894361B565FAB00B0C084 /* FirstTableViewController.swift */,
+				8038946E1B58FE5900B0C084 /* SampleData.swift */,
 				803894381B565FAB00B0C084 /* Main.storyboard */,
+				80F6415A1B6A31B90005D89E /* ContactDetailTableViewController.swift */,
+				803894761B590EBA00B0C084 /* AddContactViewController.swift */,
 				8038943B1B565FAB00B0C084 /* Assets.xcassets */,
-				8038943D1B565FAB00B0C084 /* LaunchScreen.storyboard */,
 				803894401B565FAB00B0C084 /* Info.plist */,
+				8038946C1B58F77100B0C084 /* PersonDetails.swift */,
+				803894741B59033300B0C084 /* ContactCell.swift */,
+				806D5EDA1B6F9AC9003038E3 /* Customer.swift */,
+				806D5EDC1B6FB6F4003038E3 /* Relationship.swift */,
+				806D5EE41B70CD6D003038E3 /* RelationsViewController.swift */,
+				806D5EE81B70D006003038E3 /* RoomsViewController.swift */,
+				806D5EEA1B70D6C4003038E3 /* RoomDetailViewController.swift */,
+				806D5EE61B70CDFA003038E3 /* Global.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -135,6 +205,7 @@
 				8038942D1B565FAB00B0C084 /* Sources */,
 				8038942E1B565FAB00B0C084 /* Frameworks */,
 				8038942F1B565FAB00B0C084 /* Resources */,
+				804D7B931B69F93C00F5AAC1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +258,7 @@
 		803894291B565FAB00B0C084 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = xenovus;
 				TargetAttributes = {
@@ -228,7 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8038943F1B565FAB00B0C084 /* LaunchScreen.storyboard in Resources */,
+				804D7B8C1B68CDCB00F5AAC1 /* Default-568h@2x.png in Resources */,
 				8038943C1B565FAB00B0C084 /* Assets.xcassets in Resources */,
 				8038943A1B565FAB00B0C084 /* Main.storyboard in Resources */,
 			);
@@ -255,8 +327,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				803894371B565FAB00B0C084 /* ViewController.swift in Sources */,
+				803894751B59033300B0C084 /* ContactCell.swift in Sources */,
+				806D5EDB1B6F9AC9003038E3 /* Customer.swift in Sources */,
+				803894371B565FAB00B0C084 /* FirstTableViewController.swift in Sources */,
+				806D5EE91B70D006003038E3 /* RoomsViewController.swift in Sources */,
+				806D5EEB1B70D6C4003038E3 /* RoomDetailViewController.swift in Sources */,
 				803894351B565FAB00B0C084 /* AppDelegate.swift in Sources */,
+				803894771B590EBA00B0C084 /* AddContactViewController.swift in Sources */,
+				806D5EDD1B6FB6F4003038E3 /* Relationship.swift in Sources */,
+				806D5EE51B70CD6D003038E3 /* RelationsViewController.swift in Sources */,
+				806D5EE11B70B3E6003038E3 /* Person.swift in Sources */,
+				806D5EE71B70CDFA003038E3 /* Global.swift in Sources */,
+				8038946F1B58FE5900B0C084 /* SampleData.swift in Sources */,
+				809BE0EC1B5F7306007C34EA /* ContactDB.swift in Sources */,
+				8038946D1B58F77100B0C084 /* PersonDetails.swift in Sources */,
+				80F6415B1B6A31B90005D89E /* ContactDetailTableViewController.swift in Sources */,
+				806D5EE31B70BA69003038E3 /* StringObject.swift in Sources */,
+				806D5EDF1B709C2A003038E3 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +387,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8038943D1B565FAB00B0C084 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8038943E1B565FAB00B0C084 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -347,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -385,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -396,7 +475,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xenovus.TableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,7 +497,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xenovus.TableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +515,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/hemanth/Documents/TableView/RealmSwift.framework,
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xenovus.TableViewTests;
@@ -430,6 +532,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/hemanth/Documents/TableView/RealmSwift.framework,
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xenovus.TableViewTests;
@@ -441,6 +548,10 @@
 		803894601B565FAB00B0C084 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TableViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xenovus.TableViewUITests;
@@ -453,6 +564,10 @@
 		803894611B565FAB00B0C084 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TableViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xenovus.TableViewUITests;
@@ -481,6 +596,7 @@
 				8038945B1B565FAB00B0C084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8038945C1B565FAB00B0C084 /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +605,7 @@
 				8038945E1B565FAB00B0C084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8038945F1B565FAB00B0C084 /* Build configuration list for PBXNativeTarget "TableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +614,7 @@
 				803894611B565FAB00B0C084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

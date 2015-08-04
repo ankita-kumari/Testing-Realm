@@ -7,14 +7,64 @@
 //
 
 import UIKit
+import RealmSwift
+//import Realm
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
-
+        
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        NSLog("migration database")
+        
+        
+        setSchemaVersion(1, Realm.defaultPath, { migration, oldSchemaVersion in
+//            if oldSchemaVersion < 1 {
+//                // The enumerate(_:_:) method iterates
+//                // over every Person object stored in the Realm file
+//                migration.enumerate(ContactDB.className()) { oldObject, newObject in
+//                    // combine name fields into a single field
+//                    
+//                    //newObject!["age"] = ""
+//                }
+//            }
+//            
+//            if oldSchemaVersion < 6 {
+//                
+//                migration.enumerate(ContactDB.className()) { oldObject, newObject in
+//                    
+//                    let d = newObject!["relation"] as! List<DynamicObject>
+//                    
+//                    let lst = List<Relation>()
+//                    
+//                    for r in d {
+//                        
+//                        let s = r["relation"] as! String
+//                        
+//                        var found = false
+//                        
+//                        for l in lst {
+//                            if l.relation == s {
+//                                found = true
+//                                break
+//                            }
+//                        }
+//                        
+//                        if !found {
+//                            lst.append(Relation(value: ["relation": s]))
+//                        } else {
+//                            NSLog("found-> %@", s)
+//                        }
+//                    }
+//                    
+//                    newObject!["relation"] = lst
+//                }
+//            }
+        })
+
         // Override point for customization after application launch.
         return true
     }
